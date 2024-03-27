@@ -77,18 +77,18 @@
 			/* Schrijf hier eventueel je client-side JavaScript */
 			const prevButton = document.querySelector(".container button:first-of-type")
 			const nextButton = document.querySelector(".container button:nth-of-type(2)")
-			const carousel = document.querySelector(".container section")
+			const carrousel = document.querySelector(".container section")
 
 			prevButton.addEventListener('click', function() {
-				carousel.scrollBy({
-					left: -carousel.offsetWidth,
+				carrousel.scrollBy({
+					left: -carrousel.offsetWidth,
 					behavior: 'smooth'
         		})
 			})
 
 			nextButton.addEventListener('click', function() {
-				carousel.scrollBy({
-					left: carousel.offsetWidth,
+				carrousel.scrollBy({
+					left: carrousel.offsetWidth,
 					behavior: 'smooth'
         		})
 			})
